@@ -77,3 +77,11 @@ function replaceEvenIndexWithSignatureMoves(arr) {
 let updatedArr = replaceEvenIndexWithSignatureMoves(arr);
 
 console.log(updatedArr);
+
+
+// Codewars JavaScript 1
+// https://www.codewars.com/kata/56d6c333c9ae3fc32800070f
+
+
+// Codewar JavaScript 2
+// https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
