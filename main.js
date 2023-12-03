@@ -35,8 +35,6 @@ const searchDogName = (inputString, dogNames) => {
     }
 }
 
-
-
 searchDogName(inputString, dogNames);
 
 
@@ -79,9 +77,25 @@ let updatedArr = replaceEvenIndexWithSignatureMoves(arr);
 console.log(updatedArr);
 
 
-// Codewars JavaScript 1
-// https://www.codewars.com/kata/56d6c333c9ae3fc32800070f
+// Codewars JavaScript 1 MakeUpperCase
+// https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript/6563f496a037958f6f65b7f5
+
+function makeUpperCase(inputString) {
+    return inputString.toUpperCase();
+    
+  };
+
+
 
 
 // Codewar JavaScript 2
-// https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
+// https://www.codewars.com/kata/56d6c333c9ae3fc32800070f/train/javascript/6563cb8fa037958f6f65b5c8
+
+const yearDays = (year) => {
+    if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+      return `${year} has 366 days`;  
+    }else{ 
+      return `${year} has 365 days`;
+    }
+    
+  };
